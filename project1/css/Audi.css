@@ -1,0 +1,374 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family:  "lato" , sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color:black;   
+}
+.main {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,  rgba(0,0,0,0.5)50%), url(../img/5.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 700px;
+    
+}
+.navbar {
+    width: 1200px;
+    height: 40px;
+    margin: auto;
+}
+.icon {
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo {
+    color: #ff7200;
+    font-size: 35px;
+    font-family: "lato" , sans-serif;
+    padding-left: 20px;
+    float: left;
+    padding-top: 40px;
+    
+    
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 10px;
+    
+    
+    
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  
+}
+ul li {
+    list-style-type: none;
+    margin-left: 62px;
+    margin-top: 0px;
+    font-size: 14px;
+    margin-top: 0;
+    color: white;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: "lato" , sans-serif; 
+    font-weight: bold;
+    
+    
+}
+ul li a:hover{
+    transition: 0.4s ease-in-out;
+    color:#ff7200;
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 350px;
+}
+.srch{
+    font-family: "lato" , sans-serif;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    
+    color: white;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+   
+
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+        color: white;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+.btn:focus{
+    outline: none;
+
+}
+.srch:focus{
+    outline: none;
+}
+
+
+.content {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    position: relative;
+    color: white;
+    
+}
+.content .par {
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family:"lato" , sans-serif ;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    margin-top: 50px;
+
+}
+.content h1 {
+    font-family: "lato" , sans-serif;
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 200px;
+    letter-spacing: 2px;
+}
+.form {
+    width: 300px;
+    height: 500px;
+    background:  rgba(218, 143, 81, 0.5);
+    position: absolute;
+    top: -50px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 200px;
+    margin-left: 165px;
+    
+    
+    
+}
+.form h2{
+    width: 220px;
+    font-family: "lato" , sans-serif;
+    text-align: center;
+    color: #ff7200;
+    background-color: white;
+    font-size: 22px;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: "lato" , sans-serif;
+}
+.form input:focus {
+    outline: none;
+
+}
+
+::placeholder{
+    color: white;
+    font-family: "lato" , sans-serif;
+}
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 30px;
+    mask-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+
+}
+
+.logo1{
+    max-width: 100px;
+    max-height: 10%;
+    position: relative;
+    left:80px ;
+    bottom: 10px;
+    top: 10px;
+    
+    
+}
+
+.btnn:hover{
+    background-color: #fff;
+    color: #ff7200;
+    transition: 0.4s ease-in-out ;
+}
+.btnn a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.form .link{
+    font-family: "lato" , sans-serif;;
+    font-size: 15px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form .link a {
+    text-decoration: none;
+    color: #ff7200;
+}
+.liw {
+    padding-top: 7;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+
+.pimg1, .pimg2, .pimg3 {
+    position: relative;
+    opacity: 0.70;
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.pimg1 {
+    background-image: url(../img/1.jpg);
+min-height: 100%;
+}
+
+.pimg2 {
+    background-image: url(../img/2.jpg);
+min-height: 400px;
+}
+
+.pimg3 {
+    background-image: url(../img/3.jpg);
+min-height: 400px;
+}
+.section {
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.section-light {
+    background-color: #f4f4f4;
+    color:black;
+
+}
+
+.section-dark {
+    background-color: #282e34;
+    color: #ddd;
+
+}
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.ptext .border {
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+}
+
+
+.ptext .trans {
+    background-color: transparent;
+}
+.cont {
+    color:black;
+    font-size: 24px;
+    padding: 10px;
+    margin: 15px;
+    
+    display: inline-block ;
+    
+    font-family:  "lato" , sans-serif;
+    font-weight: bold;
+    
+}
+
+footer{
+    background-color: #282e34;
+    color: white;
+    display: flex;
+    margin-top: 15px;
+    align-items:center;
+    justify-content:space-evenly;
+    font-size: 20px;
+    height: 270px;
+    margin: 0;
+    font-size: 16px;
+    font-family:  "lato" , sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    position: relative;
+
+}
+
+footer  h2 {
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 30px;
+    
+}
+.l img {
+    max-width: 200px;
+    height: auto;
+    /* align-self: center;
+    margin-top: 40px; */
+    position: relative;
+    top: 0;
+    left: 80px;
+
+}
+
+.l .top a {
+color: white;
+font-size: 16px;
+text-decoration: none;
+font-family:  "lato" , sans-serif;
+padding-bottom: none;
+margin-top: 40px;
+margin-bottom: none;
+align-self: flex-end;
+padding: 2px;
+display:inline-block ;
+position: relative;
+top: 25px;
+left: 145px;
+
+}
+.l .top a:hover{
+    color: #ff7200;
+    transition: 0.4s ease-in-out;
+}
+
